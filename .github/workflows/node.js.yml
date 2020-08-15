@@ -20,4 +20,4 @@ jobs:
             git clone https://github.com/Hakalon/nodejs-pm2-example
             cd nodejs-pm2-example
             npm install
-            pm2 run start
+            npm run start

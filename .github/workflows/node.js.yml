@@ -17,7 +17,7 @@ jobs:
           script: |
             mkdir -p ~/my-express-app/ # create a new folder
             cd ~/my-express-app/ # navigate into the folder
-            git clone https://github.com/Bradleykingz/github-actions-tutorial app
+            git clone https://github.com/Bradleykingz/github-actions-tutorial
             cd github-actions-tutorial
             npm install # install dependencies 
             pm2 start app.js # start as a background service.
